@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width:960px) {
+
+    .titleName{
+        background-color: #a8b8d0;
+        color: black;
+    }
+
+    .todoForm{
+        flex-direction: column;
+    }
+
+    .titleDesc{
+        flex-direction: column;
+    }
+
+    .btn{
+        margin-bottom: 10px;
+        background-color: #a8b8d0;
+        color: black;
+    }
+}
